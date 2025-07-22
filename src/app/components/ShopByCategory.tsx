@@ -16,7 +16,7 @@ const categories = [
   },
   {
     name: "Lingerie",
-    image: "/category3.jpg",
+    image: "/collection3.jpg",
     link: "/collections/lingerie",
   },
   {
