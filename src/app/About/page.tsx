@@ -20,7 +20,7 @@ export default function AboutUs() {
         {/* Background Hero Section */}
         <div className="relative w-full h-screen">
           <Image
-            src="/about bg.jpg"
+            src="/aboutbg.jpg"
             alt="About Splendies"
             fill
             priority
