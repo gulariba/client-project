@@ -379,7 +379,7 @@
     image: "/coreset.jpg",
   },
   {
-    id: "bridal12",
+    id: "bridal2",
     name: "Bridal Lingerie Set",
     collection: "bridal",
     category: "lace-bridal-set",
@@ -388,7 +388,7 @@
     image: "/bridallingerie.jpg",
   },
   {
-    id: "bridal13",
+    id: "bridal3",
     name: "Silk Robe with Lace",
     collection: "bridal",
     category: "honeymoon-slip",
@@ -397,7 +397,7 @@
     image: "/silkrope.jpg",
   },
   {
-    id: "bridal14",
+    id: "bridal4",
     name: "Backless Bridal Slip",
     collection: "bridal",
     category: "bridal-nightgown",
@@ -406,7 +406,7 @@
     image: "/slip.jpg",
   },
   {
-    id: "bridal15",
+    id: "bridal5",
     name: "Sheer Bridal Chemise",
     collection: "bridal",
     category: "lace-bridal-set",
@@ -415,7 +415,7 @@
     image: "/chemise1.jpg",
   },
   {
-    id: "bridal16",
+    id: "bridal6",
     name: "Strapless Bridal Bodysuit",
     collection: "bridal",
     category: "bridal-nightgown",
@@ -424,7 +424,7 @@
     image: "/undergown.jpg",
   },
   {
-    id: "bridal17",
+    id: "bridal7",
     name: "White Bridal Garter Set",
     collection: "bridal",
     category: "bridal-rope",
@@ -433,7 +433,7 @@
     image: "/garter.jpg",
   },
   {
-    id: "bridal18",
+    id: "bridal8",
     name: "Lace Bustier Bridal Set",
     collection: "bridal",
     category: "lace-bridal-set",
@@ -442,7 +442,7 @@
     image: "/strapless.jpg",
   },
   {
-    id: "bridal19",
+    id: "bridal9",
     name: "Bridal Bralette and Panty",
     collection: "bridal",
     category: "white-corset",
@@ -451,7 +451,7 @@
     image: "/braty.jpg",
   },
   {
-    id: "bridal20",
+    id: "bridal10",
     name: "Embellished Bridal Gown Slip",
     collection: "bridal",
     category: "honeymoon-slip",
