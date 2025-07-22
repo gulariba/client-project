@@ -1,4 +1,4 @@
-export const allProducts = [
+=export const allProducts = [
   // === Bras ===
   {
     id: "bra1",
@@ -317,7 +317,7 @@ export const allProducts = [
     id: "shapewear5",
     name: "Pragnant ladies recovery belt",
     collection: "shapewear",
-    category: "waist-shaper",
+    category: "full-body",
     price: "Rs. 2,300",
     description: "Supportive band for c-section recovery and waist shaping.",
     image: "/moms.jpg",
