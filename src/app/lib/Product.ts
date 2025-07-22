@@ -260,7 +260,7 @@ export const allProducts = [
     id: "lingerie9",
     name: "Satin Slip Dress",
     collection: "lingerie",
-    category: "coreset",
+    category: "lace-set",
     price: "Rs. 2,450",
     description: "Soft satin slip dress for a luxurious night.",
     image: "/satin.jpg",
