@@ -6,7 +6,7 @@ import Link from "next/link";
 const collections = [
   { name: "Bras", slug: "bras", image: "/collection1.jpg" },
   { name: "Panties", slug: "panties", image: "/collection2.jpg" },
-  { name: "Lingerie", slug: "lingerie", image: "/collecction3.jpg" },
+  { name: "Lingerie", slug: "lingerie", image: "/collection3.jpg" },
   { name: "Shapewear", slug: "shapewear", image: "/collection4.jpg" },
   { name: "Bridal Wear", slug: "bridalwear", image: "/collection5.jpg" },
   { name: "BDSM Wear", slug: "bdsmwear", image: "/collection6.jpg" },
