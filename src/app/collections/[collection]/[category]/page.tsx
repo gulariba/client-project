@@ -12,7 +12,9 @@ export default function CategoryPage() {
   };
 
   const filteredProducts = allProducts.filter(
-    (p) => p.collection === collection && p.category === category
+    (p) =>
+      p.collection.toLowerCase() === collection.toLowerCase() &&
+      p.category.toLowerCase() === category.toLowerCase()
   );
 
   return (
@@ -66,4 +68,5 @@ export default function CategoryPage() {
     </div>
   );
 }
+
 
