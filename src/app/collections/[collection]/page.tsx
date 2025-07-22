@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 
 const categoriesByCollection: Record<string, string[]> = {
-  bras: ["padded", "sports", "push-up", "t-shirt", "lace", "strapless", "full-coverage", "minimizer"],
+  bras: ["sports", "push-up", "t-shirt", "lace", "strapless", "full-coverage", "minimizer"],
   panties: ["lace", "high-waist", "seamless", "bikini", "boyshort", "thong", "hipster", "cotton"],
   lingerie: ["teddy", "babydoll", "bodysuit", "corset", "chemise", "lace-set"],
   shapewear: ["waist-trainer", "control-briefs", "full-body", "thigh-shaper", "tummy-tucker"],
