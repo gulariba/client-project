@@ -200,7 +200,7 @@ export const allProducts = [
     category: "bodysuit",
     price: "Rs. 2,500",
     description: "Smooth silk bodysuit with deep neckline and adjustable straps.",
-    image: "/body suit.jpg",
+    image: "/bodysuit.jpg",
   },
   {
     id: "lingerie3",
@@ -218,7 +218,7 @@ export const allProducts = [
     category: "bodysuit",
     price: "Rs. 2,300",
     description: "Mesh design bodysuit for a sultry look.",
-    image: "/mesh bodysuit.jpg",
+    image: "/meshbodysuit.jpg",
   },
   {
     id: "lingerie5",
@@ -320,7 +320,7 @@ export const allProducts = [
     category: "waist-shaper",
     price: "Rs. 2,300",
     description: "Supportive band for c-section recovery and waist shaping.",
-    image: "moms/.jpg",
+    image: "/moms.jpg",
   },
   {
     id: "shapewear6",
@@ -468,7 +468,7 @@ export const allProducts = [
     category: "cuffs",
     price: "Rs. 4,200",
     description: "Tight your girl hand with these romantic handcuffs.",
-    image: "/handcuffs.jpg",
+    image: "/trending1.jpg",
   },
   {
     id: "bdsm2",
