@@ -254,7 +254,7 @@ export const allProducts = [
     category: "bodysuit",
     price: "Rs. 2,550",
     description: "Delicate embroidery work on sheer mesh.",
-    image: "/embroidered.jpg",
+    image: "/embroided.jpg",
   },
   {
     id: "lingerie9",
