@@ -6,10 +6,12 @@ import Image from "next/image";
 import { allProducts } from "@/app/lib/Product";
 
 export default function CategoryPage() {
-  const { collection, category } = useParams() as {
-    collection: string;
-    category: string;
-  };
+  const params = useParams();
+
+  const collection =
+    typeof params.collection === "string" ? params.collection : "";
+  const category =
+    typeof params.category === "string" ? params.category : "";
 
   const filteredProducts = allProducts.filter(
     (p) =>
@@ -39,7 +41,7 @@ export default function CategoryPage() {
               href={`/collections/${collection}/${category}/${product.id}`}
               className="group relative block bg-secondary dark:bg-zinc-900 border border-muted rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all"
             >
-              {/* Cropped Image */}
+              {/* Image */}
               <div className="w-full h-[250px] relative overflow-hidden rounded-md bg-black">
                 <Image
                   src={product.image || "/placeholder.jpg"}
@@ -59,7 +61,7 @@ export default function CategoryPage() {
                 </p>
               </div>
 
-              {/* Glow border on hover */}
+              {/* Hover Border */}
               <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary transition-all duration-300 rounded-xl pointer-events-none" />
             </Link>
           ))}
@@ -68,5 +70,3 @@ export default function CategoryPage() {
     </div>
   );
 }
-
-
