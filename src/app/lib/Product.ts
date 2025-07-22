@@ -1,4 +1,4 @@
-=export const allProducts = [
+export const allProducts = [
   // === Bras ===
   {
     id: "bra1",
