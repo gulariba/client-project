@@ -30,14 +30,7 @@ const slides = [
     btnLink: "/collections/lingerie",
     btnText: "Explore Lingerie",
   },
-  {
-    id: 4,
-    title: "Bold & Unapologetic",
-    subtitle: "Redefine boundaries with our fierce and empowering BDSM-inspired designs.",
-    image: "/slide4.jpg",
-    btnLink: "/collections/bdsmwear",
-    btnText: "Unleash Boldness",
-  },
+ 
 ];
 
 export default function HeroSlider() {
