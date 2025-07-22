@@ -37,14 +37,13 @@ export default function CategoryPage() {
               href={`/collections/${collection}/${category}/${product.id}`}
               className="group relative block bg-secondary dark:bg-zinc-900 border border-muted rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all"
             >
-              {/* Image */}
-              <div className="w-full h-[280px] flex items-center justify-center overflow-hidden bg-black">
+              {/* Cropped Image */}
+              <div className="w-full h-[250px] relative overflow-hidden rounded-md bg-black">
                 <Image
                   src={product.image || "/placeholder.jpg"}
                   alt={product.name}
-                  width={300}
-                  height={300}
-                  className="object-cover rounded-md group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
 
@@ -58,7 +57,7 @@ export default function CategoryPage() {
                 </p>
               </div>
 
-              {/* Glow border */}
+              {/* Glow border on hover */}
               <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary transition-all duration-300 rounded-xl pointer-events-none" />
             </Link>
           ))}
@@ -67,3 +66,4 @@ export default function CategoryPage() {
     </div>
   );
 }
+
