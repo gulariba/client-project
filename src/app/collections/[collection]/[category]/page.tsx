@@ -16,7 +16,7 @@ export default function CategoryPage() {
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-7xl mx-auto px-4 py-12">
       {/* Heading */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold capitalize text-primary">
@@ -30,7 +30,7 @@ export default function CategoryPage() {
       {filteredProducts.length === 0 ? (
         <p className="text-center text-red-500 text-lg">No products found.</p>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {filteredProducts.map((product) => (
             <Link
               key={product.id}
@@ -38,12 +38,13 @@ export default function CategoryPage() {
               className="group relative block bg-secondary dark:bg-zinc-900 border border-muted rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all"
             >
               {/* Image */}
-              <div className="relative w-full h-64 overflow-hidden">
+              <div className="w-full h-[280px] flex items-center justify-center overflow-hidden bg-black">
                 <Image
                   src={product.image || "/placeholder.jpg"}
                   alt={product.name}
-                  fill
-                  className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                  width={300}
+                  height={300}
+                  className="object-cover rounded-md group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
 
@@ -57,7 +58,7 @@ export default function CategoryPage() {
                 </p>
               </div>
 
-              {/* Animated Border Glow (optional fancy effect) */}
+              {/* Glow border */}
               <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary transition-all duration-300 rounded-xl pointer-events-none" />
             </Link>
           ))}
