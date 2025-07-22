@@ -24,16 +24,6 @@ const categories = [
     image: "/category4.jpg",
     link: "/collections/shapewear",
   },
-  {
-    name: "Bridal Wear",
-    image: "/category5.jpg",
-    link: "/collections/bridalwear",
-  },
-  {
-    name: "BDSM Wear",
-    image: "/category6.jpg",
-    link: "/collections/bdsmwear",
-  },
 ];
 
 export default function ShopByCategory() {
