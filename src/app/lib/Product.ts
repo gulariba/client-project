@@ -468,7 +468,7 @@ export const allProducts = [
     category: "cuffs",
     price: "Rs. 4,200",
     description: "Tight your girl hand with these romantic handcuffs.",
-    image: "/trending1.jpg",
+    image: "/trending1.png",
   },
   {
     id: "bdsm2",
@@ -477,16 +477,16 @@ export const allProducts = [
     category: "dresskit",
     price: "Rs. 3,800",
     description: "This full sexy Bdsm body suit when you wear it you can't control your partner",
-    image: "/fullkit.jpg",
+    image: "/trending7.png",
   },
   {
     id: "bdsm3",
-    name: "Gag Ball",
+    name: "Whip",
     collection: "bdsm",
-    category: "gagball",
+    category: "whip",
     price: "Rs. 2,900",
     description: "OMG you can't forget these product in bdsm this is amazing highly recomended without this bdsm is incomplete .",
-    image: "/gag ball.jpg",
+    image: "/trending6.png",
   },
   {
     id: "bdsm4",
@@ -495,7 +495,7 @@ export const allProducts = [
     category: "collar",
     price: "Rs. 3,200",
     description: "This neck collar is amazing .",
-    image: "/collar.jpg",
+    image: "/trending4.png",
   },
   {
     id: "bdsm5",
@@ -504,7 +504,7 @@ export const allProducts = [
     category: "pantyhose",
     price: "Rs. 2,750",
     description: "Alluring full-body fishnet stocking.",
-    image: "/pantyhose.jpg",
+    image: "/trending10.jpg",
   },
   {
     id: "bdsm6",
@@ -513,7 +513,7 @@ export const allProducts = [
     category: "gagball",
     price: "Rs. 4,600",
     description: "Eplore this premium product.",
-    image: "/gag ball.jpg",
+    image: "/trending6.png",
   },
   {
     id: "bdsm7",
@@ -522,7 +522,7 @@ export const allProducts = [
     category: "rope",
     price: "Rs. 3,900",
     description: "Tie your partner with this bondage rope.",
-    image: "/rope.jpg",
+    image: "/trending5.png",
   },
   {
     id: "bdsm8",
@@ -531,7 +531,7 @@ export const allProducts = [
     category: "cuffs",
     price: "Rs. 3,100",
     description: "These are amazing to tie in bdsm.",
-    image: "/anklecuffs.jpg",
+    image: "/trending2.png",
   },
   {
     id: "bdsm9",
@@ -540,7 +540,7 @@ export const allProducts = [
     category: "eyepatch",
     price: "Rs. 3,300",
     description: "Best premium eyepatches.",
-    image: "/eyepatch2.jpg",
+    image: "/trending6.png",
   },
   {
     id: "bdsm10",
@@ -549,7 +549,7 @@ export const allProducts = [
     category: "cuffs",
     price: "Rs. 3,500",
     description: "These thigh cuffs looks sexy and adorable.",
-    image: "/thighcuffs2.jpg",
+    image: "/trending4.png",
   }
 ];
 
