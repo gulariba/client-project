@@ -370,7 +370,7 @@
 
   // === Bridal Wear ===
   {
-    id: "bridal11",
+    id: "bridal1",
     name: "Embroidered Bridal Corset",
     collection: "bridal",
     category: "white-corset",
