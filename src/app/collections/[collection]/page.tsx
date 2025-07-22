@@ -8,8 +8,7 @@ const categoriesByCollection: Record<string, string[]> = {
   panties: ["lace", "high-waist", "seamless", "bikini", "boyshort", "thong", "hipster", "cotton"],
   lingerie: ["teddy", "bodysuit", "chemise", "lace-set"],
   shapewear: ["control-briefs", "full-body", "thigh-shaper", "tummy-tucker"],
-  bridalwear: ["lace-bridal-set", "bridal-nightgown", "bridal-robe", "white-corset", "honeymoon-slip"],
-  bdsmwear: ["cuffs", "rope", "gagball", "dresskit", "eyepatch", "pantyhose"],
+
 };
 
 export default function CollectionCategoryPage() {
