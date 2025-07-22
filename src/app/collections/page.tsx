@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const collections = [
-  { name: "Bras", slug: "bras", image: "/bra.jpg" },
+  { name: "Bras", slug: "bras", image: "/collection1.jpg" },
   { name: "Panties", slug: "panties", image: "/panty.jpg" },
   { name: "Lingerie", slug: "lingerie", image: "/night wear.jpg" },
   { name: "Shapewear", slug: "shapewear", image: "/categoryshapewear.jpg" },
