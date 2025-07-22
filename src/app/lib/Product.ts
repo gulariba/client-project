@@ -61,7 +61,7 @@ export const allProducts = [
     category: "minimizer",
     price: "Rs. 1,550",
     description: "Multi-way bra for versatile styling.",
-    image: "/convertiblebra.jpg",
+    image: "/plungebra.jpg",
   },
   {
     id: "bra8",
