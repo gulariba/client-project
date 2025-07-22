@@ -209,7 +209,7 @@ export const allProducts = [
     category: "teddy",
     price: "Rs. 2,100",
     description: "Fitted teddy with floral lace and ribbon details.",
-    image: "/teddyset.jpg",
+    image: "/teadyset.jpg",
   },
   {
     id: "lingerie4",
